@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+*{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+body{
+	background-image:url("home.jpg");
+	background-size: cover;
+		
+}
+.delete{
+	width: -40%;
+	top:10%;
+	left:40%;
+	position:absolute;
+	color: #fff;
+}
+ h1{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+p{
+	font-size: 30px;
+	margin: 15px o;
+}
+.delete input{
+	font-size: 16px;
+	width: 80px;
+	height:10px;
+	padding: 15px 10px;
+	border:0;
+	outline: :none;
+	border-radius:5px;
+}
+.del{
+	color:white;
+	font-size: 20px;
+	background-color: olive;
+	cursor: pointer;
+}
+delete:hover {
+	text-transform:uppercase;
+}
